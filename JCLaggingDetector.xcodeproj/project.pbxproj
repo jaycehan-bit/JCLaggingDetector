@@ -17,6 +17,15 @@
 		4E3C3B982C08256C00C83ACC /* JCLaggingDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B972C08256C00C83ACC /* JCLaggingDetectorTests.m */; };
 		4E3C3BA22C08256C00C83ACC /* JCLaggingDetectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BA12C08256C00C83ACC /* JCLaggingDetectorUITests.m */; };
 		4E3C3BA42C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */; };
+		4E3C3BB82C08263500C83ACC /* JCLaggingDetectorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BB42C08263500C83ACC /* JCLaggingDetectorX.m */; };
+		4E3C3BB92C08263500C83ACC /* JCLaggingDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BB72C08263500C83ACC /* JCLaggingDetector.m */; };
+		4E3C3BBC2C0826F300C83ACC /* JCFrameBacktracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BBA2C0826F300C83ACC /* JCFrameBacktracker.m */; };
+		4E3C3BC12C08293C00C83ACC /* JCSymbolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BBF2C08293C00C83ACC /* JCSymbolParser.m */; };
+		4E3C3BC52C08599A00C83ACC /* JCLaggingMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BC42C08599A00C83ACC /* JCLaggingMaker.m */; };
+		4E3C3BCE2C08686B00C83ACC /* JCComplexTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BC62C08686B00C83ACC /* JCComplexTableViewAdapter.m */; };
+		4E3C3BCF2C08686B00C83ACC /* JCComplexTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BC92C08686B00C83ACC /* JCComplexTableViewCellModel.m */; };
+		4E3C3BD02C08686B00C83ACC /* JCComplexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BCA2C08686B00C83ACC /* JCComplexTableViewCell.m */; };
+		4E3C3BD12C08686B00C83ACC /* JCLaggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BCB2C08686B00C83ACC /* JCLaggingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,26 @@
 		4E3C3B9D2C08256C00C83ACC /* JCLaggingDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCLaggingDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3C3BA12C08256C00C83ACC /* JCLaggingDetectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorUITests.m; sourceTree = "<group>"; };
 		4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4E3C3BB32C08263500C83ACC /* JCLaggingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingModule.h; sourceTree = "<group>"; };
+		4E3C3BB42C08263500C83ACC /* JCLaggingDetectorX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorX.m; sourceTree = "<group>"; };
+		4E3C3BB52C08263500C83ACC /* JCLaggingDetectorX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingDetectorX.h; sourceTree = "<group>"; };
+		4E3C3BB62C08263500C83ACC /* JCLaggingDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingDetector.h; sourceTree = "<group>"; };
+		4E3C3BB72C08263500C83ACC /* JCLaggingDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetector.m; sourceTree = "<group>"; };
+		4E3C3BBA2C0826F300C83ACC /* JCFrameBacktracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCFrameBacktracker.m; sourceTree = "<group>"; };
+		4E3C3BBB2C0826F300C83ACC /* JCFrameBacktracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCFrameBacktracker.h; sourceTree = "<group>"; };
+		4E3C3BBE2C08279100C83ACC /* JCLaggingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingDefine.h; sourceTree = "<group>"; };
+		4E3C3BBF2C08293C00C83ACC /* JCSymbolParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSymbolParser.m; sourceTree = "<group>"; };
+		4E3C3BC02C08293C00C83ACC /* JCSymbolParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSymbolParser.h; sourceTree = "<group>"; };
+		4E3C3BC32C08599A00C83ACC /* JCLaggingMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingMaker.h; sourceTree = "<group>"; };
+		4E3C3BC42C08599A00C83ACC /* JCLaggingMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLaggingMaker.m; sourceTree = "<group>"; };
+		4E3C3BC62C08686B00C83ACC /* JCComplexTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCComplexTableViewAdapter.m; sourceTree = "<group>"; };
+		4E3C3BC72C08686B00C83ACC /* JCComplexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCComplexTableViewCell.h; sourceTree = "<group>"; };
+		4E3C3BC82C08686B00C83ACC /* JCLaggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLaggingViewController.h; sourceTree = "<group>"; };
+		4E3C3BC92C08686B00C83ACC /* JCComplexTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCComplexTableViewCellModel.m; sourceTree = "<group>"; };
+		4E3C3BCA2C08686B00C83ACC /* JCComplexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCComplexTableViewCell.m; sourceTree = "<group>"; };
+		4E3C3BCB2C08686B00C83ACC /* JCLaggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLaggingViewController.m; sourceTree = "<group>"; };
+		4E3C3BCC2C08686B00C83ACC /* JCComplexTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCComplexTableViewCellModel.h; sourceTree = "<group>"; };
+		4E3C3BCD2C08686B00C83ACC /* JCComplexTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCComplexTableViewAdapter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +133,11 @@
 		4E3C3B7A2C08256B00C83ACC /* JCLaggingDetector */ = {
 			isa = PBXGroup;
 			children = (
+				4E3C3BC22C08596F00C83ACC /* Mock */,
+				4E3C3BBD2C08275700C83ACC /* Environment */,
+				4E3C3BB22C0825FD00C83ACC /* BackingTrace */,
+				4E3C3BB12C0825AE00C83ACC /* Symbolic */,
+				4E3C3BB02C08259500C83ACC /* Detector */,
 				4E3C3B7B2C08256B00C83ACC /* AppDelegate.h */,
 				4E3C3B7C2C08256B00C83ACC /* AppDelegate.m */,
 				4E3C3B7E2C08256B00C83ACC /* SceneDelegate.h */,
@@ -134,6 +168,61 @@
 				4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */,
 			);
 			path = JCLaggingDetectorUITests;
+			sourceTree = "<group>";
+		};
+		4E3C3BB02C08259500C83ACC /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BB62C08263500C83ACC /* JCLaggingDetector.h */,
+				4E3C3BB72C08263500C83ACC /* JCLaggingDetector.m */,
+				4E3C3BB52C08263500C83ACC /* JCLaggingDetectorX.h */,
+				4E3C3BB42C08263500C83ACC /* JCLaggingDetectorX.m */,
+				4E3C3BB32C08263500C83ACC /* JCLaggingModule.h */,
+			);
+			path = Detector;
+			sourceTree = "<group>";
+		};
+		4E3C3BB12C0825AE00C83ACC /* Symbolic */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BC02C08293C00C83ACC /* JCSymbolParser.h */,
+				4E3C3BBF2C08293C00C83ACC /* JCSymbolParser.m */,
+			);
+			path = Symbolic;
+			sourceTree = "<group>";
+		};
+		4E3C3BB22C0825FD00C83ACC /* BackingTrace */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BBB2C0826F300C83ACC /* JCFrameBacktracker.h */,
+				4E3C3BBA2C0826F300C83ACC /* JCFrameBacktracker.m */,
+			);
+			path = BackingTrace;
+			sourceTree = "<group>";
+		};
+		4E3C3BBD2C08275700C83ACC /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BBE2C08279100C83ACC /* JCLaggingDefine.h */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		4E3C3BC22C08596F00C83ACC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BCD2C08686B00C83ACC /* JCComplexTableViewAdapter.h */,
+				4E3C3BC62C08686B00C83ACC /* JCComplexTableViewAdapter.m */,
+				4E3C3BC72C08686B00C83ACC /* JCComplexTableViewCell.h */,
+				4E3C3BCA2C08686B00C83ACC /* JCComplexTableViewCell.m */,
+				4E3C3BCC2C08686B00C83ACC /* JCComplexTableViewCellModel.h */,
+				4E3C3BC92C08686B00C83ACC /* JCComplexTableViewCellModel.m */,
+				4E3C3BC82C08686B00C83ACC /* JCLaggingViewController.h */,
+				4E3C3BCB2C08686B00C83ACC /* JCLaggingViewController.m */,
+				4E3C3BC32C08599A00C83ACC /* JCLaggingMaker.h */,
+				4E3C3BC42C08599A00C83ACC /* JCLaggingMaker.m */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +356,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3C3B832C08256B00C83ACC /* ViewController.m in Sources */,
+				4E3C3BB82C08263500C83ACC /* JCLaggingDetectorX.m in Sources */,
 				4E3C3B7D2C08256B00C83ACC /* AppDelegate.m in Sources */,
+				4E3C3BCF2C08686B00C83ACC /* JCComplexTableViewCellModel.m in Sources */,
+				4E3C3BC12C08293C00C83ACC /* JCSymbolParser.m in Sources */,
+				4E3C3BB92C08263500C83ACC /* JCLaggingDetector.m in Sources */,
 				4E3C3B8E2C08256C00C83ACC /* main.m in Sources */,
 				4E3C3B802C08256B00C83ACC /* SceneDelegate.m in Sources */,
+				4E3C3BCE2C08686B00C83ACC /* JCComplexTableViewAdapter.m in Sources */,
+				4E3C3BBC2C0826F300C83ACC /* JCFrameBacktracker.m in Sources */,
+				4E3C3BC52C08599A00C83ACC /* JCLaggingMaker.m in Sources */,
+				4E3C3BD12C08686B00C83ACC /* JCLaggingViewController.m in Sources */,
+				4E3C3BD02C08686B00C83ACC /* JCComplexTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +582,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

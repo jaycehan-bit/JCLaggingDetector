@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "JCLaggingDetector.h"
+#import "JCLaggingDetectorX.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[JCLaggingDetectorX sharedInstance] run];
     return YES;
 }
 
