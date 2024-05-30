@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3C3B7D2C08256B00C83ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B7C2C08256B00C83ACC /* AppDelegate.m */; };
+		4E3C3B802C08256B00C83ACC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B7F2C08256B00C83ACC /* SceneDelegate.m */; };
+		4E3C3B832C08256B00C83ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B822C08256B00C83ACC /* ViewController.m */; };
+		4E3C3B862C08256B00C83ACC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C3B852C08256B00C83ACC /* Base */; };
+		4E3C3B882C08256C00C83ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C3B872C08256C00C83ACC /* Assets.xcassets */; };
+		4E3C3B8B2C08256C00C83ACC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C3B8A2C08256C00C83ACC /* Base */; };
+		4E3C3B8E2C08256C00C83ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B8D2C08256C00C83ACC /* main.m */; };
+		4E3C3B982C08256C00C83ACC /* JCLaggingDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3B972C08256C00C83ACC /* JCLaggingDetectorTests.m */; };
+		4E3C3BA22C08256C00C83ACC /* JCLaggingDetectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BA12C08256C00C83ACC /* JCLaggingDetectorUITests.m */; };
+		4E3C3BA42C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E3C3B942C08256C00C83ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3C3B702C08256B00C83ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3C3B772C08256B00C83ACC;
+			remoteInfo = JCLaggingDetector;
+		};
+		4E3C3B9E2C08256C00C83ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3C3B702C08256B00C83ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3C3B772C08256B00C83ACC;
+			remoteInfo = JCLaggingDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E3C3B782C08256B00C83ACC /* JCLaggingDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCLaggingDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3C3B7B2C08256B00C83ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E3C3B7C2C08256B00C83ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E3C3B7E2C08256B00C83ACC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4E3C3B7F2C08256B00C83ACC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4E3C3B812C08256B00C83ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E3C3B822C08256B00C83ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E3C3B852C08256B00C83ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E3C3B872C08256C00C83ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E3C3B8A2C08256C00C83ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E3C3B8C2C08256C00C83ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3C3B8D2C08256C00C83ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E3C3B932C08256C00C83ACC /* JCLaggingDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCLaggingDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3C3B972C08256C00C83ACC /* JCLaggingDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorTests.m; sourceTree = "<group>"; };
+		4E3C3B9D2C08256C00C83ACC /* JCLaggingDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCLaggingDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3C3BA12C08256C00C83ACC /* JCLaggingDetectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorUITests.m; sourceTree = "<group>"; };
+		4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLaggingDetectorUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E3C3B752C08256B00C83ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B902C08256C00C83ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B9A2C08256C00C83ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3C3B6F2C08256B00C83ACC = {
+			isa = PBXGroup;
+			children = (
+				4E3C3B7A2C08256B00C83ACC /* JCLaggingDetector */,
+				4E3C3B962C08256C00C83ACC /* JCLaggingDetectorTests */,
+				4E3C3BA02C08256C00C83ACC /* JCLaggingDetectorUITests */,
+				4E3C3B792C08256B00C83ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E3C3B792C08256B00C83ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3B782C08256B00C83ACC /* JCLaggingDetector.app */,
+				4E3C3B932C08256C00C83ACC /* JCLaggingDetectorTests.xctest */,
+				4E3C3B9D2C08256C00C83ACC /* JCLaggingDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E3C3B7A2C08256B00C83ACC /* JCLaggingDetector */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3B7B2C08256B00C83ACC /* AppDelegate.h */,
+				4E3C3B7C2C08256B00C83ACC /* AppDelegate.m */,
+				4E3C3B7E2C08256B00C83ACC /* SceneDelegate.h */,
+				4E3C3B7F2C08256B00C83ACC /* SceneDelegate.m */,
+				4E3C3B812C08256B00C83ACC /* ViewController.h */,
+				4E3C3B822C08256B00C83ACC /* ViewController.m */,
+				4E3C3B842C08256B00C83ACC /* Main.storyboard */,
+				4E3C3B872C08256C00C83ACC /* Assets.xcassets */,
+				4E3C3B892C08256C00C83ACC /* LaunchScreen.storyboard */,
+				4E3C3B8C2C08256C00C83ACC /* Info.plist */,
+				4E3C3B8D2C08256C00C83ACC /* main.m */,
+			);
+			path = JCLaggingDetector;
+			sourceTree = "<group>";
+		};
+		4E3C3B962C08256C00C83ACC /* JCLaggingDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3B972C08256C00C83ACC /* JCLaggingDetectorTests.m */,
+			);
+			path = JCLaggingDetectorTests;
+			sourceTree = "<group>";
+		};
+		4E3C3BA02C08256C00C83ACC /* JCLaggingDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C3BA12C08256C00C83ACC /* JCLaggingDetectorUITests.m */,
+				4E3C3BA32C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m */,
+			);
+			path = JCLaggingDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E3C3B772C08256B00C83ACC /* JCLaggingDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3C3BA72C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetector" */;
+			buildPhases = (
+				4E3C3B742C08256B00C83ACC /* Sources */,
+				4E3C3B752C08256B00C83ACC /* Frameworks */,
+				4E3C3B762C08256B00C83ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCLaggingDetector;
+			productName = JCLaggingDetector;
+			productReference = 4E3C3B782C08256B00C83ACC /* JCLaggingDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E3C3B922C08256C00C83ACC /* JCLaggingDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3C3BAA2C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetectorTests" */;
+			buildPhases = (
+				4E3C3B8F2C08256C00C83ACC /* Sources */,
+				4E3C3B902C08256C00C83ACC /* Frameworks */,
+				4E3C3B912C08256C00C83ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3C3B952C08256C00C83ACC /* PBXTargetDependency */,
+			);
+			name = JCLaggingDetectorTests;
+			productName = JCLaggingDetectorTests;
+			productReference = 4E3C3B932C08256C00C83ACC /* JCLaggingDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E3C3B9C2C08256C00C83ACC /* JCLaggingDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3C3BAD2C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetectorUITests" */;
+			buildPhases = (
+				4E3C3B992C08256C00C83ACC /* Sources */,
+				4E3C3B9A2C08256C00C83ACC /* Frameworks */,
+				4E3C3B9B2C08256C00C83ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3C3B9F2C08256C00C83ACC /* PBXTargetDependency */,
+			);
+			name = JCLaggingDetectorUITests;
+			productName = JCLaggingDetectorUITests;
+			productReference = 4E3C3B9D2C08256C00C83ACC /* JCLaggingDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E3C3B702C08256B00C83ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4E3C3B772C08256B00C83ACC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4E3C3B922C08256C00C83ACC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E3C3B772C08256B00C83ACC;
+					};
+					4E3C3B9C2C08256C00C83ACC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E3C3B772C08256B00C83ACC;
+					};
+				};
+			};
+			buildConfigurationList = 4E3C3B732C08256B00C83ACC /* Build configuration list for PBXProject "JCLaggingDetector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E3C3B6F2C08256B00C83ACC;
+			productRefGroup = 4E3C3B792C08256B00C83ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E3C3B772C08256B00C83ACC /* JCLaggingDetector */,
+				4E3C3B922C08256C00C83ACC /* JCLaggingDetectorTests */,
+				4E3C3B9C2C08256C00C83ACC /* JCLaggingDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E3C3B762C08256B00C83ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C3B882C08256C00C83ACC /* Assets.xcassets in Resources */,
+				4E3C3B8B2C08256C00C83ACC /* Base in Resources */,
+				4E3C3B862C08256B00C83ACC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B912C08256C00C83ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B9B2C08256C00C83ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E3C3B742C08256B00C83ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C3B832C08256B00C83ACC /* ViewController.m in Sources */,
+				4E3C3B7D2C08256B00C83ACC /* AppDelegate.m in Sources */,
+				4E3C3B8E2C08256C00C83ACC /* main.m in Sources */,
+				4E3C3B802C08256B00C83ACC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B8F2C08256C00C83ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C3B982C08256C00C83ACC /* JCLaggingDetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3C3B992C08256C00C83ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C3BA22C08256C00C83ACC /* JCLaggingDetectorUITests.m in Sources */,
+				4E3C3BA42C08256C00C83ACC /* JCLaggingDetectorUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E3C3B952C08256C00C83ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3C3B772C08256B00C83ACC /* JCLaggingDetector */;
+			targetProxy = 4E3C3B942C08256C00C83ACC /* PBXContainerItemProxy */;
+		};
+		4E3C3B9F2C08256C00C83ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3C3B772C08256B00C83ACC /* JCLaggingDetector */;
+			targetProxy = 4E3C3B9E2C08256C00C83ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E3C3B842C08256B00C83ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E3C3B852C08256B00C83ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E3C3B892C08256C00C83ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E3C3B8A2C08256C00C83ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E3C3BA52C08256C00C83ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E3C3BA62C08256C00C83ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E3C3BA82C08256C00C83ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JCLaggingDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E3C3BA92C08256C00C83ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JCLaggingDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E3C3BAB2C08256C00C83ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCLaggingDetector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JCLaggingDetector";
+			};
+			name = Debug;
+		};
+		4E3C3BAC2C08256C00C83ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCLaggingDetector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JCLaggingDetector";
+			};
+			name = Release;
+		};
+		4E3C3BAE2C08256C00C83ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCLaggingDetector;
+			};
+			name = Debug;
+		};
+		4E3C3BAF2C08256C00C83ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2VK525HWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jaycehan.JCLaggingDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCLaggingDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E3C3B732C08256B00C83ACC /* Build configuration list for PBXProject "JCLaggingDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3C3BA52C08256C00C83ACC /* Debug */,
+				4E3C3BA62C08256C00C83ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3C3BA72C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3C3BA82C08256C00C83ACC /* Debug */,
+				4E3C3BA92C08256C00C83ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3C3BAA2C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3C3BAB2C08256C00C83ACC /* Debug */,
+				4E3C3BAC2C08256C00C83ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3C3BAD2C08256C00C83ACC /* Build configuration list for PBXNativeTarget "JCLaggingDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3C3BAE2C08256C00C83ACC /* Debug */,
+				4E3C3BAF2C08256C00C83ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E3C3B702C08256B00C83ACC /* Project object */;
+}
